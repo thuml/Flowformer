@@ -53,7 +53,7 @@ Vanilla Transformer means Decision Transorfomer in RL.
 <p align="center">
 <img src=".\pic\Attention-visualization.png" height = "300" alt="" align=center />
 <br><br>
-<b>Figure 2.</b> Attention visualization. Flow-Attention can capture the essential parts successfully.
+<b>Figure 2.</b> Attention visualization. Flowformer can capture the essential parts successfully.
 </p>
 
 ## Citation
