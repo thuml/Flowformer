@@ -5,7 +5,7 @@ Transformers have achieved impressive success in various areas. However, the att
 
 - **Linear complexity** w.r.t sequence length, can hand extermely long sequence (4k+ tokens)
 - **Without specific indcitve bias**, purely derived from the flow network theory
-- **Task-universal**, show strong performance in **$\color{red}{\text{Long sequence, Vision, NLP, Time series, RL}}$**
+- **Task-universal**, show strong performance in **$\color{red}{\text{Long sequence, Vision, NLP, Time series, RL}}$**.
 
 ## Flow-Attention Design
 
