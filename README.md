@@ -36,15 +36,15 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 
 ## Main Results
 
-See the [[paper]](https://arxiv.org/pdf/2202.06258.pdf) for detailed results, including nearly 20 comparing baselines. 
+See the [[paper]](https://arxiv.org/pdf/2202.06258.pdf) for detailed results, including **nearly 20 comparing baselines**. 
 
-| Task                                | Metric                                               | Flowformer       | Performer    | Reformer     | Vanilla<br>Transformer |
-| ----------------------------------- | ---------------------------------------------------- | ---------------- | ------------ | ------------ | ---------------------- |
-| Long Sequence in LRA                | Avg Acc (%) $\uparrow$                               | **56.48**        | 51.41        | 50.67        | OOM                    |
-| Vision Recognization in ImageNet-1K | Top-1 Acc (%) $\uparrow$                             | **80.4**         | 78.1         | 79.6         | 78.7                   |
-| Language Modeling in WikiText-103   | Perplexity $\downarrow$                              | **30.8**         | 37.5         | 33.6         | 33.0                   |
-| Time series classification in UEA   | Avg Acc (%)                                          | **73.0**         | 71.5         | 71.9         | 71.9                   |
-| Offline RL in D4RL                  | Avg Reward $\uparrow$ <br>Avg deviation $\downarrow$ | 71.1$\pm$**2.1** | 63.8$\pm$7.6 | 58.3$\pm$9.5 | **72.2**$\pm$2.6       |
+| Task                                  | Metrics                                          | Flowformer       | Performer    | Reformer     | Vanilla<br>Transformer |
+| ------------------------------------- | ------------------------------------------------ | ---------------- | ------------ | ------------ | ---------------------- |
+| Long Sequence Modeling <br> (LRA)     | Avg Acc (%) $\uparrow$                           | **56.48**        | 51.41        | 50.67        | OOM                    |
+| Vision Recognization<br>(ImageNet-1K) | Top-1 Acc (%) $\uparrow$                         | **80.4**         | 78.1         | 79.6         | 78.7                   |
+| Language Modeling<br>(WikiText-103)   | Perplexity $\downarrow$                          | **30.8**         | 37.5         | 33.6         | 33.0                   |
+| Time series classification<br>(UEA)   | Avg Acc (%) $\uparrow$                           | **73.0**         | 71.5         | 71.9         | 71.9                   |
+| Offline RL<br>(D4RL)                  | Avg Reward $\uparrow$ <br>Deviation $\downarrow$ | 71.1$\pm$**2.1** | 63.8$\pm$7.6 | 58.3$\pm$9.5 | **72.2**$\pm$2.6       |
 
 Vanilla Transformer means Decision Transorfomer in RL.
 
