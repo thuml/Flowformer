@@ -3,7 +3,7 @@ Flowformer: Linearizing Transformers with Conservation Flows
 
 Transformers have achieved impressive success in various areas. However, the attention mechanism has a quadratic complexity, significantly impeding Transformers from dealing with numerous tokens and scaling up to bigger models. In pursuing the **linear complexity** and **task-universal** foundation model, we propose Flowformer [[paper]](https://arxiv.org/pdf/2202.06258.pdf) with the following merits:
 
-- **Linear complexity** w.r.t sequence length, can handle extermely long sequence (4k+ tokens)
+- **Linear complexity** w.r.t sequence length, can handle extermely long sequence (over 4k tokens)
 - **Without specific indcitve bias**, purely derived from the flow network theory
 - **Task-universal**, showing strong performance in **$\color{red}{\text{Long sequence, Vision, NLP, Time series, RL}}$**.
 
