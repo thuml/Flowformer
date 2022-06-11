@@ -29,7 +29,7 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 
 - [x] Core code: see `Flow_Attention.py`
 - [ ] Long Sequence Modeling in LRA
-- [ ] Vision Recognization in ImageNet-1K
+- [x] Vision Recognization in ImageNet-1K
 - [ ] Language Modeling in WikiText-103
 - [ ] Time series classification  in UEA
 - [ ] Reinforcement Leanring in D4RL
