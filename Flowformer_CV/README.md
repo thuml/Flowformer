@@ -1,6 +1,6 @@
 # Flowformer for Vision Recognization
 
-We present the Flowformer with 19 layers in a four-stage hierarchical structure, where the channels are in $\{96,192,384,768\}$ and the input sequence length for each stage is in $\{3136,784,196,49\}$ correspondingly.
+We present the Flowformer with 19 layers in a four-stage hierarchical structure, where the channels are in {96, 192, 384, 768} and the input sequence length for each stage is in {3136, 784, 196, 49} correspondingly.
 
 <p align="center">
 <img src="..\pic\CV_results.png" height = "300" alt="" align=center />
