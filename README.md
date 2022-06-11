@@ -23,7 +23,7 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 
 1. Please refer to different folders for detailed experiment instructions.
 
-   Note: We have suffered a lot in configuring environments for different tasks. If you also have problems in solving the environment, feel free to contact us.
+   Note: We have suffered a lot in configuring environments for different tasks. If you also have problems in solving the environment, feel free to contact us and discuss about it.
 
 2. Progress of benchmarks (All the code will be released before 2022.07.30)
 
