@@ -5,7 +5,7 @@ We present the Flowformer with 19 layers in a four-stage hierarchical structure,
 <p align="center">
 <img src="..\pic\CV_results.png" height = "300" alt="" align=center />
 <br><br>
-<b>Figure 1.</b> Results in ImageNet-1K.
+<b>Figure 1.</b> Results on ImageNet-1K.
 </p>
 
 ## Get Started
@@ -30,7 +30,7 @@ We present the Flowformer with 19 layers in a four-stage hierarchical structure,
 │  ├── ......
 ```
 
-3. Train and model. You can get **pretrained model** from [[here]](todo).
+3. Train and evaluate the model. You can get **pretrained model** from [[here]](todo).
 
 ```shell
 bash ./script/flowformer.sh

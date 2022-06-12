@@ -77,7 +77,7 @@ class Flow_Attention(nn.Module):
         source_outgoing = 1.0 / (self.my_sum(k + 1e-6, q.sum(dim=2) + 1e-6) + 1e-6)
         conserved_sink = self.my_sum(q + 1e-6, (k * source_outgoing[:, :, :, None]).sum(dim=2) + 1e-6) + 1e-6
         conserved_source = self.my_sum(k + 1e-6, (q * sink_incoming[:, :, :, None]).sum(dim=2) + 1e-6) + 1e-6
-        conserved_source = torch.clamp(conserved_source, min=-5, max=5)  # for stability
+        conserved_source = torch.clamp(conserved_source, min=-1.0, max=1.0)  # for stability
         # allocation
         sink_allocation = torch.sigmoid(conserved_sink * (float(q.shape[2]) / float(k.shape[2])))
         # competition
