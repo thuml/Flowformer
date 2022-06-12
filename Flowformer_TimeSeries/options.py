@@ -150,11 +150,11 @@ class Options(object):
                                  (size of transformer layers).""")
         self.parser.add_argument('--d_model', type=int, default=512,
                                  help='Internal dimension of transformer embeddings')
-        self.parser.add_argument('--dim_feedforward', type=int, default=96,
+        self.parser.add_argument('--dim_feedforward', type=int, default=2048,
                                  help='Dimension of dense feedforward part of transformer layer')
         self.parser.add_argument('--num_heads', type=int, default=8,
                                  help='Number of multi-headed attention heads')
-        self.parser.add_argument('--num_layers', type=int, default=3,
+        self.parser.add_argument('--num_layers', type=int, default=2,
                                  help='Number of transformer encoder layers (blocks)')
         self.parser.add_argument('--dropout', type=float, default=0.1,
                                  help='Dropout applied to most transformer encoder layers')
