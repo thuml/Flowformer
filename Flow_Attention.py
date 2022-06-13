@@ -48,7 +48,7 @@ class Flow_Attention(nn.Module):
                                       (keys * source_outgoing[:, :, :, None]).sum(dim=2) + self.eps)
         conserved_source = torch.einsum("nhld,nhd->nhl", keys + self.eps,
                                         (queries * sink_incoming[:, :, :, None]).sum(dim=2) + self.eps)
-        conserved_source = torch.clamp(conserved_source, min=-10.0, max=10.0)  # for stability
+        conserved_source = torch.clamp(conserved_source, min=-1.0, max=1.0)  # for stability
         # (3) Competition & Allocation
         sink_allocation = torch.sigmoid(conserved_sink * (float(queries.shape[2]) / float(keys.shape[2])))
         source_competition = torch.softmax(conserved_source, dim=-1) * float(keys.shape[2])
@@ -114,7 +114,7 @@ class Flow_Attention_Causal(nn.Module):
         conserved_source = torch.einsum("nhld,nhld->nhl", keys + self.eps,
                                         (queries * sink_incoming[:, :, :, None]).cumsum(
                                             dim=2) + self.eps) / normal
-        conserved_source = torch.clamp(conserved_source, min=-10.0, max=10.0)  # for stability
+        conserved_source = torch.clamp(conserved_source, min=-1.0, max=1.0)  # for stability
         # (3) Competition & Allocation
         sink_allocation = torch.sigmoid(conserved_sink)
         conserved_source = torch.exp(conserved_source)
