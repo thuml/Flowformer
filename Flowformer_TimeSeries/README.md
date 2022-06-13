@@ -15,7 +15,7 @@ We test our proposed Flowformer on the [[UEA]](https://www.timeseriesclassificat
 
 2. Download the dataset from [[Tsinghua Cloud]](https://cloud.tsinghua.edu.cn/d/20ec246857454850a1f3/).
 
-3. Train and evaluate the model with following commands:
+3. Train and evaluate the model with following commands. We use the "Best accuracy" as our metric for all baselines and experiments.
 
 ```shell
 bash scripts/flowformer.sh
