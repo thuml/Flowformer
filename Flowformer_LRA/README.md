@@ -32,8 +32,6 @@ bash ./lra_benchmarks/image_scripts/flowformer.sh
 bash ./lra_benchmarks/path_scripts/flowformer.sh
 ```
 
-You can obtain the pre-trained model from the [[here]](todo).
-
 ## Acknowledgement
 
 We code base is built upon on the official code of LRA:
