@@ -28,7 +28,7 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 2. Progress of benchmarks (All the code will be released before 2022.07.30)
 
 - [x] Core code: see `Flow_Attention.py`
-- [ ] Long Sequence Modeling in LRA
+- [x] Long Sequence Modeling in LRA
 - [x] Vision Recognization in ImageNet-1K
 - [ ] Language Modeling in WikiText-103
 - [x] Time series classification  in UEA
