@@ -48,7 +48,7 @@ See the [[paper]](https://arxiv.org/pdf/2202.06258.pdf) for detailed results, in
 
 Vanilla Transformer means Decision Transorfomer in RL.
 
-## Attention Visualziation
+## Attention Visualization
 
 <p align="center">
 <img src=".\pic\Attention-visualization.png" height = "300" alt="" align=center />
