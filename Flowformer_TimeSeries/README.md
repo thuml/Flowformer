@@ -11,7 +11,11 @@ We test our proposed Flowformer on the [[UEA]](https://www.timeseriesclassificat
 
 ## Get Started
 
-1. Install torch, numpy.
+1. Install the packages by the following commands.
+
+```shell
+pip install -r requirements.txt
+```
 
 2. Download the dataset from [[Tsinghua Cloud]](https://cloud.tsinghua.edu.cn/d/20ec246857454850a1f3/).
 
