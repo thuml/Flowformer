@@ -30,7 +30,7 @@ We present the Flowformer with 19 layers in a four-stage hierarchical structure,
 │  ├── ......
 ```
 
-3. Train and evaluate the model. You can get **pretrained model** from [[here]](todo).
+3. Train and evaluate the model. You can get **pretrained model** from [[here]](https://cloud.tsinghua.edu.cn/d/82d93375f97f4ca58886/).
 
 ```shell
 bash ./script/flowformer.sh
