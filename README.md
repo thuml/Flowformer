@@ -32,7 +32,7 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 - [x] Vision Recognization in ImageNet-1K
 - [ ] Language Modeling in WikiText-103
 - [x] Time series classification  in UEA
-- [ ] Reinforcement Learning in D4RL
+- [x] Reinforcement Learning in D4RL
 
 ## Main Results
 
