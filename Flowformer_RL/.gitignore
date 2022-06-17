@@ -1,0 +1,5 @@
+*.pkl
+__pycache__
+runs
+data/raw_data
+data/preprocessed_data
