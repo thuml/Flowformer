@@ -32,7 +32,7 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 - [x] Vision Recognization in ImageNet-1K
 - [ ] Language Modeling in WikiText-103
 - [x] Time series classification  in UEA
-- [ ] Reinforcement Learning in D4RL
+- [x] Reinforcement Learning in D4RL
 
 ## Main Results
 
@@ -44,7 +44,7 @@ See the [[paper]](https://arxiv.org/pdf/2202.06258.pdf) for detailed results, in
 | Vision Recognization<br>(ImageNet-1K) | Top-1 Acc (%) $\uparrow$                         | **80.6**         | 78.1         | 79.6         | 78.7                   |
 | Language Modeling<br>(WikiText-103)   | Perplexity $\downarrow$                          | **30.8**         | 37.5         | 33.6         | 33.0                   |
 | Time series classification<br>(UEA)   | Avg Acc (%) $\uparrow$                           | **73.0**         | 71.5         | 71.9         | 71.9                   |
-| Offline RL<br>(D4RL)                  | Avg Reward $\uparrow$ <br>Avg Deviation $\downarrow$ | **73.5**$\pm$2.9 | 63.8$\pm$7.6 | 63.9$\pm$2.9 | 72.2$\pm$**2.6**       |
+| Offline RL<br>(D4RL)                  | Avg Reward $\uparrow$ <br>Avg Deviation $\downarrow$ | **73.5** $\pm$ 2.9 | 63.8 $\pm$ 7.6 | 63.9 $\pm$ 2.9 | 72.2 $\pm$ **2.6**       |
 
 Vanilla Transformer means Decision Transorfomer in RL.
 

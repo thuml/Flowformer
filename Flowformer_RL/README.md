@@ -1,5 +1,13 @@
 # Flowformer for Offline RL
 
+We present the Flowformer with 3 layers and 256 channels for the offline RL task.
+
+<p align="center">
+<img src="..\pic\RL_results.png" height = "300" alt="" align=center />
+<br><br>
+<b>Figure 1.</b> Results on D4RL.
+</p>
+
 ## Get Started
 
 ### Environment
