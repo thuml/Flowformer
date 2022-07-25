@@ -62,7 +62,7 @@ class Flowformer_attention(nn.Module):
         conserved_source = torch.exp(conserved_source)
         source_competition = (conserved_source / conserved_source.cumsum(dim=-1)) * normal
         # (4) Causal dot product
-        x = (self.causal_dot_product(queries * sink_incoming[:, :, :, None],  # for value normalization
+        x = (self.causal_dot_product(queries * (sink_incoming[:, :, :, None] / normal[:, :, :, None]),  # for value normalization
                                      keys,
                                      values * source_competition[:, :, :, None])  # competition
              * sink_allocation[:, :, :, None]).transpose(1, 2)  # allocation

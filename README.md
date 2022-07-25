@@ -4,7 +4,7 @@ Flowformer: Linearizing Transformers with Conservation Flows
 Transformers have achieved impressive success in various areas. However, the attention mechanism has a quadratic complexity, significantly impeding Transformers from dealing with numerous tokens and scaling up to bigger models. In pursuing the **linear complexity** and **task-universal** foundation model, we propose Flowformer [[paper]](https://arxiv.org/pdf/2202.06258.pdf) with the following merits:
 
 - **Linear complexity** w.r.t sequence length, can handle extermely long sequence (over 4k tokens)
-- **Without specific indcitve bias**, purely derived from the flow network theory
+- **Without specific inducitve bias**, purely derived from the flow network theory
 - **Task-universal**, showing strong performance in **$\color{red}{\text{Long sequence, Vision, NLP, Time series, RL}}$**.
 
 ## Flow-Attention Design
@@ -32,7 +32,9 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 - [x] Vision Recognization in ImageNet-1K
 - [ ] Language Modeling in WikiText-103
 - [x] Time series classification  in UEA
-- [ ] Reinforcement Learning in D4RL
+- [x] Reinforcement Learning in D4RL
+
+3. For causal Flow-Attention, we are preparing a CUDA version to speed up, which will be released before 2022.07.30.
 
 ## Main Results
 
@@ -44,7 +46,7 @@ See the [[paper]](https://arxiv.org/pdf/2202.06258.pdf) for detailed results, in
 | Vision Recognization<br>(ImageNet-1K) | Top-1 Acc (%) $\uparrow$                         | **80.6**         | 78.1         | 79.6         | 78.7                   |
 | Language Modeling<br>(WikiText-103)   | Perplexity $\downarrow$                          | **30.8**         | 37.5         | 33.6         | 33.0                   |
 | Time series classification<br>(UEA)   | Avg Acc (%) $\uparrow$                           | **73.0**         | 71.5         | 71.9         | 71.9                   |
-| Offline RL<br>(D4RL)                  | Avg Reward $\uparrow$ <br>Avg Deviation $\downarrow$ | **73.5**$\pm$2.9 | 63.8$\pm$7.6 | 63.9$\pm$2.9 | 72.2$\pm$**2.6**       |
+| Offline RL<br>(D4RL)                  | Avg Reward $\uparrow$ <br>Avg Deviation $\downarrow$ | **73.5** $\pm$ 2.9 | 63.8 $\pm$ 7.6 | 63.9 $\pm$ 2.9 | 72.2 $\pm$ **2.6**       |
 
 Vanilla Transformer means Decision Transorfomer in RL.
 

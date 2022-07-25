@@ -256,7 +256,7 @@ class FlowAttention(nn.Module):
         # [switch nx => n_state from Block to Attention to keep identical to TF implem]
         assert n_state % config.n_head == 0
 
-        self.att = Flowformer_attention(n_state, config.n_head, drop_out=0.05)
+        self.att = Flowformer_attention(n_state, config.n_head, drop_out=config.resid_pdrop)
 
     def forward(
             self,
