@@ -14,7 +14,7 @@ Since fairseq a quite large code base, we only provide the changed module and ou
 
 1. Solve the environment and download the dataset follows the tutorial of [[Language Modeling]](https://github.com/facebookresearch/fairseq/blob/main/examples/language_model/README.md).
 1. Replace the `./fairseq/modules/multihead_attention.py` by our provided `flow_attention.py`.
-1. Train and evaluate the model by the following scripts. You can get the pretrained model from [[here]](https://cloud.tsinghua.edu.cn/d/82d93375f97f4ca58886/).
+1. Train and evaluate the model by the following scripts. You can get the pretrained model from [[here]](https://cloud.tsinghua.edu.cn/d/0a5bd85ea56c40e4947f/).
 
 ```shell
 fairseq-train --task language_modeling \
