@@ -25,7 +25,7 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 
    Note: We have suffered a lot in configuring environments for different tasks. If you also have problems in solving the environment, feel free to contact us and discuss about it.
 
-2. Progress of benchmarks
+2. List of benchmarks
 
 - [x] Core code: see `Flow_Attention.py`
 - [x] Long Sequence Modeling in LRA
