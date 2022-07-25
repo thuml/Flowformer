@@ -25,12 +25,12 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 
    Note: We have suffered a lot in configuring environments for different tasks. If you also have problems in solving the environment, feel free to contact us and discuss about it.
 
-2. Progress of benchmarks (All the code will be released before 2022.07.30)
+2. Progress of benchmarks
 
 - [x] Core code: see `Flow_Attention.py`
 - [x] Long Sequence Modeling in LRA
 - [x] Vision Recognization in ImageNet-1K
-- [ ] Language Modeling in WikiText-103
+- [x] Language Modeling in WikiText-103
 - [x] Time series classification  in UEA
 - [x] Reinforcement Learning in D4RL
 
