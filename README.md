@@ -34,7 +34,7 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 - [x] Time series classification  in UEA
 - [x] Reinforcement Learning in D4RL
 
-3. For causal Flow-Attention, we are preparing a CUDA version to speed up, which will be released before 2022.07.30.
+3. For causal Flow-Attention, we are preparing a CUDA version to speed up, which will be released before 2022.07.31.
 
 ## Main Results
 
