@@ -28,13 +28,12 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 2. List of benchmarks
 
 - [x] Core code: see `Flow_Attention.py`
+- [ ] CUDA version for causal Flow-Attention
 - [x] Long Sequence Modeling in LRA
 - [x] Vision Recognization in ImageNet-1K
 - [x] Language Modeling in WikiText-103
 - [x] Time series classification  in UEA
 - [x] Reinforcement Learning in D4RL
-
-3. For causal Flow-Attention, we are preparing a CUDA version to speed up, which will be released before 2022.07.31.
 
 ## Main Results
 
