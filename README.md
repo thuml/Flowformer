@@ -28,6 +28,7 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 2. List of benchmarks
 
 - [x] Core code: see `Flow_Attention.py`
+- [x] GPT-style Pytorch Module
 - [ ] CUDA speed up version for causal Flow-Attention
 - [x] Long Sequence Modeling in LRA
 - [x] Vision Recognization in ImageNet-1K
