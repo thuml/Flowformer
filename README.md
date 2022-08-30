@@ -29,12 +29,12 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 
 - [x] Core code: see `Flow_Attention.py`
 - [x] GPT-style Pytorch Module
-- [ ] CUDA speed up version for causal Flow-Attention
 - [x] Long Sequence Modeling in LRA
 - [x] Vision Recognization in ImageNet-1K
 - [x] Language Modeling in WikiText-103
 - [x] Time series classification  in UEA
 - [x] Reinforcement Learning in D4RL
+- [ ] CUDA speed up version
 
 ## Main Results
 
