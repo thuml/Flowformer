@@ -28,12 +28,12 @@ By conducting the conservation in both source and sink ascpects, we can bring co
 2. List of benchmarks
 
 - [x] Core code: see `Flow_Attention.py`
-- [x] GPT-style Pytorch Module
-- [x] Long Sequence Modeling in LRA
-- [x] Vision Recognization in ImageNet-1K
-- [x] Language Modeling in WikiText-103
-- [x] Time series classification  in UEA
-- [x] Reinforcement Learning in D4RL
+- [x] GPT-style Pytorch Module: see `Flowformer_TorchModule`
+- [x] Long Sequence Modeling in LRA: see `Flowformer_LRA`
+- [x] Vision Recognization in ImageNet-1K: see `Flowformer_CV`
+- [x] Language Modeling in WikiText-103: see `Flowformer_NLP`
+- [x] Time series classification  in UEA: see `Flowformer_TimeSeries`
+- [x] Reinforcement Learning in D4RL: see `Flowformer_RL`
 - [ ] CUDA speed up version
 
 ## Main Results
