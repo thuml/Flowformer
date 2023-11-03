@@ -17,7 +17,7 @@ We test our proposed Flowformer on the [[UEA]](https://www.timeseriesclassificat
 pip install -r requirements.txt
 ```
 
-2. Download the dataset from [[Tsinghua Cloud]](https://cloud.tsinghua.edu.cn/d/20ec246857454850a1f3/).
+2. Download the dataset from [[Google Drive]](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2).
 
 3. Train and evaluate the model with following commands. We use the "Best accuracy" as our metric for all baselines and experiments.
 
