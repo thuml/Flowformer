@@ -1,7 +1,7 @@
 # Flowformer (ICML 2022)
 Flowformer: Linearizing Transformers with Conservation Flows
 
-:triangular_flag_on_post:**News** (2024.07) [Mobile-Attention](https://openreview.net/pdf?id=VHtIDVaOKC), a mobile-device-tailored version of Flowformer, has been published in ICML 2024. You can find the attention code [here](https://github.com/thuml/MobileAttention). You can obtain a faster model by just replacing the canonical Attention Mechanism with Mobile-Attention.
+:triangular_flag_on_post:**News** (2024.07) [Mobile-Attention](https://openreview.net/pdf?id=VHtIDVaOKC), a mobile-device-tailored version of Flowformer, has been published in ICML 2024. You can find the attention code [here](https://github.com/thuml/MobileAttention/blob/main/Mobile_Attention.py). You can obtain a faster model by just replacing the canonical Attention Mechanism with Mobile-Attention.
 
 Transformers have achieved impressive success in various areas. However, the attention mechanism has quadratic complexity, significantly impeding Transformers from dealing with numerous tokens and scaling up to bigger models. In pursuing the **linear complexity** and **task-universal** foundation model, we propose Flowformer [[paper]](https://arxiv.org/pdf/2202.06258.pdf) with the following merits:
 
