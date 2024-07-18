@@ -1,10 +1,12 @@
 # Flowformer (ICML 2022)
 Flowformer: Linearizing Transformers with Conservation Flows
 
-Transformers have achieved impressive success in various areas. However, the attention mechanism has a quadratic complexity, significantly impeding Transformers from dealing with numerous tokens and scaling up to bigger models. In pursuing the **linear complexity** and **task-universal** foundation model, we propose Flowformer [[paper]](https://arxiv.org/pdf/2202.06258.pdf) with the following merits:
+:triangular_flag_on_post:**News** (2024.07) [Mobile-Attention](https://openreview.net/pdf?id=VHtIDVaOKC), a mobile-device-tailored version of Flowformer, has been published in ICML 2024. You can find the attention code [here](https://github.com/thuml/MobileAttention). You can obtain a faster model by just replacing the canonical Attention Mechanism with Mobile-Attention.
 
-- **Linear complexity** w.r.t sequence length, can handle extermely long sequence (over 4k tokens)
-- **Without specific inducitve bias**, purely derived from the flow network theory
+Transformers have achieved impressive success in various areas. However, the attention mechanism has quadratic complexity, significantly impeding Transformers from dealing with numerous tokens and scaling up to bigger models. In pursuing the **linear complexity** and **task-universal** foundation model, we propose Flowformer [[paper]](https://arxiv.org/pdf/2202.06258.pdf) with the following merits:
+
+- **Linear complexity** w.r.t sequence length, can handle extremely long sequences (over 4k tokens)
+- **Without specific inductive bias**, purely derived from the flow network theory
 - **Task-universal**, showing strong performance in **$\color{red}{\text{Long sequence, Vision, NLP, Time series, RL}}$**.
 
 ## Flow-Attention Design
